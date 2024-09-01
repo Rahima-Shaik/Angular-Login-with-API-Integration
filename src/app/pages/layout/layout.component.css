@@ -1,0 +1,28 @@
+.navbar-inverse{
+  display: flex;                /* Enable Flexbox layout */
+  justify-content: space-between; /* Distribute space between the items */
+  align-items: center;          /* Vertically center the items */
+  width: 100%;                  /* Make the navbar fill the full width of its parent */
+  padding: 0 20px;              /* Optional: Add small padding for aesthetics */
+  background-color: #333;       /* Example background color */
+  color: white;
+}
+.navbar-brand{
+    margin-right: auto;
+}
+.navbar-nav {
+    display: flex;                /* Align navigation items in a row */
+    gap: 15px;                    /* Space between the items */
+    list-style: none;             /* Remove default list styling */
+    padding: 0;                   /* Remove default padding */
+    margin: 0;                    /* Remove default margin */
+}
+
+.navbar-right {
+    display: flex;                /* Align right-side items in a row */
+    gap: 15px;                    /* Space between the right-aligned items */
+  }
+
+  .navbar-nav .nav-item {
+    margin: 0;                    /* Ensure no default margin is applied */
+  }
